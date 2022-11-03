@@ -1,0 +1,6 @@
+{
+    "require": {
+        "mercadopago/dx-php": "2.4.9",
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
