@@ -29,7 +29,7 @@
 					var index = htmlString.indexOf("on line");
 					var oldScreen = parent.frames[1].window.location.href;
 					if (index != -1){
-						parent.frames[1].window.location.href='<? echo $BASE_URL ?>/Site/exception.php?screen=' + oldScreen;
+						parent.frames[1].window.location.href='<? echo $BASE_URL; ?>/Site/exception.php?screen=' + oldScreen;
 					}
 				}, 100);
 			setInterval(function(){
@@ -38,7 +38,7 @@
 					var index = htmlString.indexOf("on line");
 					var oldScreen = parent.frames[1].window.location.href;
 					if (index != -1){
-						parent.frames[1].window.location.href='<? echo $BASE_URL ?>/Site/exception.php?screen=' + oldScreen;
+						parent.frames[1].window.location.href='<? echo $BASE_URL; ?>/Site/exception.php?screen=' + oldScreen;
 					}
 				}, 1000);
 		</script> -->

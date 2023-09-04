@@ -8,9 +8,9 @@
       template: '#my-template'
   }).then((result) => {
     if(result.isConfirmed) {
-     window.open('<? echo $BASE_URL ?>/login.php', '_blank');
+     window.open('<? echo $BASE_URL; ?>/login.php', '_blank');
      } else if (result.isDenied) {
-      window.open('<? echo $BASE_URL ?>/login.php?PA=true', '_blank');
+      window.open('<? echo $BASE_URL; ?>/login.php?PA=true', '_blank');
       }
     })
 });

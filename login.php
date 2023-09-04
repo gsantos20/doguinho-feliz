@@ -390,7 +390,7 @@ function enviarDados(){
 
 					willClose: (toast) => {
 						setTimeout(function(){
-							window.location.assign("<? echo $BASE_URL ?>/EditaSenha.php");
+							window.location.assign("<? echo $BASE_URL; ?>/EditaSenha.php");
 						},200); 	
 					}
 				})
@@ -414,7 +414,7 @@ function enviarDados(){
 					},
 					willClose: (toast) => {
 						setTimeout(function(){
-							window.location.assign("<? echo $BASE_URL ?>/MasterFrameSet.php");
+							window.location.assign("<? echo $BASE_URL; ?>/MasterFrameSet.php");
 						},200); 
 						
 					}
@@ -442,7 +442,7 @@ function enviarDados(){
 					},
 					// willClose: (toast) => {
 					// 	setTimeout(function(){
-					// 		window.location.assign("<? echo $BASE_URL ?>/login.php");
+					// 		window.location.assign("<? echo $BASE_URL; ?>/login.php");
 					// 	},200); 
 						
 					// }
