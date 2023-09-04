@@ -8,6 +8,7 @@ node_modules/
 dist/
 vendor/
 swift/
+composer.lock
 
 conexao.php
 config.php
