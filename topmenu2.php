@@ -37,7 +37,7 @@ $urlPage.= $_SERVER['HTTP_HOST'];
   $urlPage.= $_SERVER['REQUEST_URI'];
 
 
-$urlStatic = "https://doguinhofeliz.mytcc.com.br/index.php";
+$urlStatic = $BASE_URL . "/index.php";
 
 $parseUrl = substr($urlPage, strrpos($urlPage, "/")+1);
 

@@ -58,13 +58,13 @@ $preference->payment_methods = array(
  );
 
  $preference->back_urls = array(
-  "success" => "https://doguinhofeliz.mytcc.com.br/teste.php",
-  "failure" => "https://doguinhofeliz.mytcc.com.br/failure",
-  "pending" => "https://doguinhofeliz.mytcc.com.br/pending"
+  "success" => $BASE_URL . "/teste.php",
+  "failure" => $BASE_URL . "/failure",
+  "pending" => $BASE_URL . "/pending"
 );
 $preference->auto_return = "approved";
 
-$preference->notification_url = 'https://doguinhofeliz.mytcc.com.br/teste2.php';
+$preference->notification_url = $BASE_URL . '/teste2.php';
 
 $preference->external_reference = "A Custom External Reference";
  $preference->save();

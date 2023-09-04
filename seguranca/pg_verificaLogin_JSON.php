@@ -110,7 +110,7 @@ if($row != null && $row_count > 0){
 		
 
 			// the message
-	    $msg = "<br><br>" . "Sua nova senha para entrar no DoguinhoFeliz é:  {$novaSenha} Ao fazer o login com a nova senha que você inseriu, você será solicitado a mudá-la para uma senha de sua escolha. DoguinhoFeliz login: https://doguinhofeliz.mytcc.com.br/login.php E-MAIL AUTOMÁTICO: Por favor, não responda!";
+	    $msg = "<br><br>" . "Sua nova senha para entrar no DoguinhoFeliz é:  {$novaSenha} Ao fazer o login com a nova senha que você inseriu, você será solicitado a mudá-la para uma senha de sua escolha. DoguinhoFeliz login: {$BASE_URL}/login.php E-MAIL AUTOMÁTICO: Por favor, não responda!";
 
 		$destino = $row['email'];
 
@@ -138,7 +138,7 @@ if($row != null && $row_count > 0){
             <table >
               <tr align="right">
                 <td>
-                <img style="max-width: 15em; max-height: 7.5em; width: auto; height: auto;" src="https://doguinhofeliz.mytcc.com.br/images/Doguinho.png">
+                <img style="max-width: 15em; max-height: 7.5em; width: auto; height: auto;" src="$BASE_URL/images/Doguinho.png">
                 
                 </td>
               </tr>
@@ -170,7 +170,7 @@ if($row != null && $row_count > 0){
             <p style="font-size: 17px;font-family:Poppins;color: #6ab99d;margin-top: 30px;font-weight: 500;"> Email:   <b style="color: black"> $email</b></p>
             <p style="font-size: 17px;font-family:Poppins;color: #6ab99d;font-weight: 500;margin-bottom: 35px;"> Senha :   <b style="color: black"> DOGF@2022</b></p>
             -->
-            <p style="font-size: 12px;font-family:Poppins;text-align:center;"><a style="color:#ffffff;background-color:#6ab99d;border:solid 1px #43a047;width: 50%;border-radius:4px;box-sizing:border-box;text-decoration:none;display:inline-block;font-size:15px;font-weight:500;margin:0;padding:10px 20px;border-color:#43a047;margin-bottom: 29px;" href="https://doguinhofeliz.mytcc.com.br/EditaSenha.php?id_user={$row['id_user']}&alter={$alter_sen}" target=_blank> Clique neste link para ser redirecionado ao sistema.</a></p>
+            <p style="font-size: 12px;font-family:Poppins;text-align:center;"><a style="color:#ffffff;background-color:#6ab99d;border:solid 1px #43a047;width: 50%;border-radius:4px;box-sizing:border-box;text-decoration:none;display:inline-block;font-size:15px;font-weight:500;margin:0;padding:10px 20px;border-color:#43a047;margin-bottom: 29px;" href="$BASE_URL/EditaSenha.php?id_user={$row['id_user']}&alter={$alter_sen}" target=_blank> Clique neste link para ser redirecionado ao sistema.</a></p>
             <br>
             <small>Caso não tenha solicitado a restauração de sua senha, ignorar este email.</small>
             <tr>

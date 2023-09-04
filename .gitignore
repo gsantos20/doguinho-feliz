@@ -10,6 +10,7 @@ vendor/
 swift/
 
 conexao.php
+config.php
 
 # Compiled Java class files
 *.class

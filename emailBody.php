@@ -45,7 +45,7 @@
                         </div>
                         <p style="font-size: 16px;font-family:Poppins;color: #6ab99d"> Usuário:  <b style="color: black">Gustavo</b></p>
                         <p style="font-size: 16px;font-family:Poppins;color: #6ab99d"> Senha :  <b style="color: black">DOGF@2022</b></p>
-                        <p style="font-size: 16px;font-family:Calibri"><a href='https://doguinhofeliz.mytcc.com.br/login.php' target=_blank> Clique neste link para ser redirecionado ao sistema.</a></p>
+                        <p style="font-size: 16px;font-family:Calibri"><a href='<? echo BASE_URL; ?> /login.php' target=_blank> Clique neste link para ser redirecionado ao sistema.</a></p>
                         
                       <tr>
                         <td>

@@ -78,7 +78,7 @@ $user = $_POST['txtEmailPA'];
                           <tr align="right">
                               <td>
                               <br>
-                                <img style="max-width: 15em; max-height: 7.5em; width: auto; height: auto;" src="https://doguinhofeliz.mytcc.com.br/images/Doguinho2.png">
+                                <img style="max-width: 15em; max-height: 7.5em; width: auto; height: auto;" src="$BASE_URL/images/Doguinho2.png">
                               </td>
                           </tr>
                           <tr>
@@ -106,7 +106,7 @@ $user = $_POST['txtEmailPA'];
                         </div>
                         <p style="font-size: 17px;font-family:Poppins;color: #6ab99d;margin-top: 30px;font-weight: 500;"> Usuário:   <b style="color: black">$user</b></p>
                         <p style="font-size: 17px;font-family:Poppins;color: #6ab99d;font-weight: 500;margin-bottom: 35px;"> Senha :   <b style="color: black">  DOGF@2022</b></p>
-                        <p style="font-size: 12px;font-family:Poppins;text-align:center;"><a style="color:#ffffff;background-color:#6ab99d;border:solid 1px #43a047;width: 60%;border-radius:4px;box-sizing:border-box;text-decoration:none;display:inline-block;font-size:15px;font-weight:500;margin:0;padding:10px 20px;border-color:#43a047;margin-bottom: 29px;" href='https://doguinhofeliz.mytcc.com.br/login.php' target=_blank> Clique neste link para ser redirecionado ao sistema.</a></p>
+                        <p style="font-size: 12px;font-family:Poppins;text-align:center;"><a style="color:#ffffff;background-color:#6ab99d;border:solid 1px #43a047;width: 60%;border-radius:4px;box-sizing:border-box;text-decoration:none;display:inline-block;font-size:15px;font-weight:500;margin:0;padding:10px 20px;border-color:#43a047;margin-bottom: 29px;" href='$BASE_URL/login.php' target=_blank> Clique neste link para ser redirecionado ao sistema.</a></p>
                         
                       <tr>
                         <td>

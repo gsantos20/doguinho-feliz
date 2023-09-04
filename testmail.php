@@ -14,7 +14,7 @@ require_once '/home/ubuntu/vendor/autoload.php';
 
 <?php
 
-$baseCaminho = "https://doguinhofeliz.mytcc.com.br/Foto/Produtos/teste/";
+$baseCaminho = $BASE_URL . "/Foto/Produtos/teste/";
 $uploaddir = '/var/www/doguinhofeliz.mytcc.com.br/Foto/Produtos/teste/';
 $nomeArq = basename($_FILES['campoArquivo']['name']);
 $uploadfile = $uploaddir . $nomeArq;

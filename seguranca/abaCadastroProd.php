@@ -26,7 +26,7 @@ $categoria = mysqli_real_escape_string($conexao, $_POST['slcCategoria']);
 
 if(isset($hdnCad) && $hdnCad == 1){
 
-$baseCaminho = "https://doguinhofeliz.mytcc.com.br/Foto/Produtos/";
+$baseCaminho = "<? echo $BASE_URL ?>/Foto/Produtos/";
 $uploaddir = '/var/www/doguinhofeliz.mytcc.com.br/Foto/Produtos/';
 $nomeArq = basename($_FILES['fileProd']['name']);
 $uploadfile = $uploaddir . $nomeArq;
