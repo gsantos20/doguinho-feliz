@@ -1,4 +1,4 @@
-<base href="<? echo $BASE_URL ?>/">
+<base href="<? echo $BASE_URL ?>">
 
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />

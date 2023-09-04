@@ -26,7 +26,7 @@ $categoria = mysqli_real_escape_string($conexao, $_POST['slcCategoria']);
 
 if(isset($hdnCad) && $hdnCad == 1){
 
-$baseCaminho = "<? echo $BASE_URL ?>/Foto/Produtos/";
+$baseCaminho = $BASE_URL . "/Foto/Produtos/";
 $uploaddir = '/var/www/doguinhofeliz.mytcc.com.br/Foto/Produtos/';
 $nomeArq = basename($_FILES['fileProd']['name']);
 $uploadfile = $uploaddir . $nomeArq;
@@ -41,7 +41,7 @@ $uploadfile = $uploaddir . $nomeArq;
 if (move_uploaded_file($_FILES['fileProd']['tmp_name'], $uploadfile)) {
     echo "Arquivo válido e enviado com sucesso.\n";
 } else {
-    echo "Possível ataque de upload de arquivo!". $_FILES['fileProd']['error'];\n;
+    echo "Possível ataque de upload de arquivo!". $_FILES['fileProd']['error'];
 }
 
 $baseCaminho .= $nomeArq;

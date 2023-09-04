@@ -93,7 +93,7 @@ if ($err) {
 }*/
 
 } else {
-    echo "Possível ataque de upload de arquivo!". $_FILES['campoArquivo']['error'];\n;
+    echo "Possível ataque de upload de arquivo!". $_FILES['campoArquivo']['error'];
 }
 
 
