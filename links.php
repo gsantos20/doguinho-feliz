@@ -1,4 +1,4 @@
-<? include('config.php'); ?>
+<? require('config.php'); ?>
 <base href="<? echo $BASE_URL; ?>">
 
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
