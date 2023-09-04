@@ -2,6 +2,8 @@
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 // include_once('conexao.php');
+include('config.php');
+
 require_once '/home/ubuntu/vendor/autoload.php';
 
     if(isset($_POST['hdnValida']) && $_POST['hdnValida'] == 1){?>

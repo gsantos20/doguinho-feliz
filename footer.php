@@ -1,3 +1,5 @@
+<? include('config.php'); ?>
+
 <br>
 <link href="/styles/style.css" rel="stylesheet" type="text/css"/>
 
